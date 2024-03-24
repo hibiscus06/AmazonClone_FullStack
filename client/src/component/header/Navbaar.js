@@ -12,7 +12,9 @@ const Navbaar = () => {
         <nav>
             <div className='left'>
                 <div className='navLogo'>
-                  <NavLink to="/"> <img src='https://freelogopng.com/images/all_img/1688364164amazon-logo-transparent.png' alt="" /> </NavLink> 
+                  <NavLink to="/">
+                     <img src='https://freelogopng.com/images/all_img/1688364164amazon-logo-transparent.png' alt="IMAGE" /> 
+                  </NavLink> 
                 </div>
                 <div className='nav_searchbaar'>
                     <input type = "text" name="" id="" />
